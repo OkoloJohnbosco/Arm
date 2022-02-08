@@ -9,7 +9,6 @@ export type StateType = {
 }
 
 export default (countryId?: number) => {
-	if (countryId === undefined || isNaN(+countryId)) return null
 	return useQueryAction<{ states: StateType[]; country: CountryType }>({
 		endpoint: `${ENDPOINTS.API_LIST_STATES}/${countryId}`,
 		queryKey: [countryId],

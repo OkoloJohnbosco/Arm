@@ -13,8 +13,6 @@ export type CityType = {
 }
 
 export default ({ countryId, stateId }) => {
-	console.log(countryId && stateId)
-	if (countryId === undefined || isNaN(+countryId)) return null
 	return useQueryAction<{ cities: CityType[]; country: CountryType; state: StateType }>({
 		endpoint: `${ENDPOINTS.API_LIST_CITIES}/${countryId}/${stateId}`,
 		queryKey: [countryId, stateId],
