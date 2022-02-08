@@ -1,0 +1,71 @@
+.main-pusher {
+  margin-left: 0;
+}
+
+aside.nav {
+  -webkit-transform: translateX(-14rem);
+          transform: translateX(-14rem);
+  overflow: scroll;
+}
+
+input#nav-toggle:checked ~ :is(.nav) {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.nav,
+.main-pusher {
+  -webkit-transition: width, -webkit-transform 250ms ease-in-out;
+  transition: width, -webkit-transform 250ms ease-in-out;
+  transition: width, transform 250ms ease-in-out;
+  transition: width, transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+@media screen and (min-width: 767px) {
+  .main-pusher {
+    -webkit-transition: margin-left 100ms ease-in-out;
+    transition: margin-left 100ms ease-in-out;
+  }
+  .nav {
+    -webkit-transition: width 100ms ease-in-out;
+    transition: width 100ms ease-in-out;
+  }
+  aside.nav {
+    -webkit-transform: none;
+            transform: none;
+  }
+  .main-pusher {
+    margin-left: 14rem;
+  }
+  input#nav-toggle:checked ~ :is(.main-pusher) {
+    margin-left: 5rem;
+  }
+  input#nav-toggle:checked ~ :is(.nav) {
+    width: 5rem;
+  }
+  input#nav-toggle:checked ~ aside .navigation-label {
+    display: none;
+    -webkit-transition: all 3s ease-in-out;
+    transition: all 3s ease-in-out;
+    opacity: 0;
+  }
+  input#nav-toggle:checked ~ aside .navigation-user-name {
+    display: none;
+    opacity: 0;
+  }
+  input#nav-toggle:checked ~ aside .navigation-section-label {
+    visibility: hidden;
+    white-space: nowrap;
+    opacity: 0;
+  }
+}
+
+aside .navigation-label {
+  -webkit-transition: all 3s ease-in-out;
+  transition: all 3s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=navigation.css.map */

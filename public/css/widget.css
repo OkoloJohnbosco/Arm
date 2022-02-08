@@ -1,0 +1,31 @@
+#robo-man #robo-message::after {
+  content: attr(data-message);
+  z-index: var(--chakra-zIndices-modal);
+}
+
+#robo-man:hover #robo-message {
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+  display: block;
+  opacity: 1;
+}
+
+#robo-man #robo-content {
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+  -webkit-transition: -webkit-transform .2s ease-in;
+  transition: -webkit-transform .2s ease-in;
+  transition: transform .2s ease-in;
+  transition: transform .2s ease-in, -webkit-transform .2s ease-in;
+}
+
+#robo-man input#robo-content-toggle:checked ~ #robo-content {
+  display: block;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+#robo-man input#robo-content-toggle:checked ~ #robo-message {
+  display: none;
+}
+/*# sourceMappingURL=widget.css.map */

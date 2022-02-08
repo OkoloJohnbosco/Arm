@@ -1,0 +1,111 @@
+import { Box, Icon, Stack, StackProps } from '@chakra-ui/react'
+import CountryIcons from 'components/country-icon'
+import Divider from 'components/divider'
+import { Input, inputIcons, Select } from 'components/input'
+import Body from 'components/typography/Body'
+import Small from 'components/typography/Small'
+import useCountries from 'lib/hooks/useCountries'
+import { CountryProps } from 'lib/types'
+import React, { useEffect, useState } from 'react'
+import { FaAsterisk } from 'react-icons/fa'
+import { validatePhoneNumber } from 'utils/helpers'
+
+const PhoneInput = ({
+	phoneNumber,
+	country: phoneCountry = 'GB',
+	responsive = false,
+	onChange,
+	title,
+	isDisabled,
+	isRequired,
+	...others
+}: {
+	phoneNumber?: string
+	country?: string | CountryProps
+	responsive?: boolean
+	isDisabled?: boolean
+	isRequired?: boolean
+	onChange?: (p: { isValid: boolean; country?: CountryProps; phoneNumber: string; formattedPhoneNumber?: string }) => void
+} & Omit<StackProps, 'onChange'>) => {
+	const countries = useCountries()
+	const [country, setCountry] = useState<CountryProps>()
+	const [numberFormat, setNumberFormat] = useState(validatePhoneNumber({ phoneNumber, country }))
+
+	useEffect(() => {
+		onChange?.(numberFormat)
+	}, [numberFormat])
+	useEffect(() => {
+		if (phoneCountry) {
+			if (typeof phoneCountry === 'string') {
+				setCountry(countries.find((c) => c.shortCode === phoneCountry))
+			} else {
+				setCountry(phoneCountry)
+			}
+		}
+	}, [phoneCountry])
+
+	useEffect(() => {
+		setNumberFormat(validatePhoneNumber({ phoneNumber: numberFormat.phoneNumber, country }))
+	}, [phoneNumber, country])
+
+	const handleCountryChange = (_, country) => {
+		setCountry(country)
+		//setNumberFormat(validatePhoneNumber({ phoneNumber: numberFormat.phoneNumber, country }))
+	}
+
+	const onChangeNumber = (event: React.ChangeEvent<HTMLInputElement>) => {
+		const format = validatePhoneNumber({ phoneNumber: event.target.value, country })
+		setNumberFormat(format)
+	}
+
+	return (
+		<Stack>
+			<Small color={isDisabled ? 'grey-200' : numberFormat.isValid ? 'neutral-800' : 'red-500'} textAlign="start">
+				{numberFormat.isValid ? title : 'Enter valid phone Number'}
+				{isRequired && <FaAsterisk className="inline-block ml-1 w-2 h-2" />}
+			</Small>
+
+			<Stack direction={{ base: responsive ? 'column' : 'row', md: 'row' }} spacing={{ base: responsive ? 2 : 0, md: 0 }} {...others}>
+				<Box flex={3}>
+					<Select
+						icon={inputIcons.globe}
+						value={country?.shortCode}
+						onChange2={handleCountryChange}
+						//	onChange={handleCountryChange}
+						isRequired
+						options={countries.map((country) => ({
+							source: country,
+							value: country.shortCode,
+							label: `${country.diallingCode} ${country.name}`,
+						}))}
+						renderComponent={(country: CountryProps) => (
+							<>
+								<CountryIcons shortCode={country.shortCode} />{' '}
+								<>
+									<Body className="hidden md:block"> {country.name}</Body>
+									<Body className="md:hidden block"> {country.shortCode}</Body>
+								</>
+							</>
+						)}
+					/>
+				</Box>
+				<Divider height="auto" orientation="vertical" display={{ base: responsive ? 'none' : 'block' }} />
+				<Box flex={7}>
+					<Input
+						pattern="\+\(\d+\)\d{6,}"
+						placeholder="123456789"
+						icon={inputIcons.phoneNumber}
+						error={!numberFormat.isValid}
+						type="tel"
+						value={numberFormat.formattedPhoneNumber}
+						isDisabled={isDisabled}
+						isRequired={isRequired}
+						onChange={onChangeNumber}
+					/>
+				</Box>
+			</Stack>
+		</Stack>
+	)
+}
+
+export default PhoneInput

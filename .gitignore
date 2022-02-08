@@ -1,0 +1,19 @@
+# OSX
+#
+.DS_Store
+.vscode
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.env
+# next
+#
+.next
+dependency-check.svg
+.now
+out
+.idea
+

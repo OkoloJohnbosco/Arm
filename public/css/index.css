@@ -1,0 +1,282 @@
+@import url(/Users/ndifreke/Documents/projects/engage-web/public/css/font.css);
+.main-pusher {
+  margin-left: 0;
+}
+
+aside.nav {
+  -webkit-transform: translateX(-14rem);
+          transform: translateX(-14rem);
+  overflow: scroll;
+}
+
+input#nav-toggle:checked ~ :is(.nav) {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.nav,
+.main-pusher {
+  -webkit-transition: width, -webkit-transform 250ms ease-in-out;
+  transition: width, -webkit-transform 250ms ease-in-out;
+  transition: width, transform 250ms ease-in-out;
+  transition: width, transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+@media screen and (min-width: 767px) {
+  .main-pusher {
+    -webkit-transition: margin-left 100ms ease-in-out;
+    transition: margin-left 100ms ease-in-out;
+  }
+  .nav {
+    -webkit-transition: width 100ms ease-in-out;
+    transition: width 100ms ease-in-out;
+  }
+  aside.nav {
+    -webkit-transform: none;
+            transform: none;
+  }
+  .main-pusher {
+    margin-left: 14rem;
+  }
+  input#nav-toggle:checked ~ :is(.main-pusher) {
+    margin-left: 5rem;
+  }
+  input#nav-toggle:checked ~ :is(.nav) {
+    width: 5rem;
+  }
+  input#nav-toggle:checked ~ aside .navigation-label {
+    display: none;
+    -webkit-transition: all 3s ease-in-out;
+    transition: all 3s ease-in-out;
+    opacity: 0;
+  }
+  input#nav-toggle:checked ~ aside .navigation-user-name {
+    display: none;
+    opacity: 0;
+  }
+  input#nav-toggle:checked ~ aside .navigation-section-label {
+    visibility: hidden;
+    white-space: nowrap;
+    opacity: 0;
+  }
+}
+
+aside .navigation-label {
+  -webkit-transition: all 3s ease-in-out;
+  transition: all 3s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+#robo-man #robo-message {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  opacity: 0;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+#robo-man #robo-message::after {
+  content: attr(data-message);
+}
+
+#robo-man:hover #robo-message {
+  -webkit-transform: translateY(-12px);
+          transform: translateY(-12px);
+  display: block;
+  opacity: 1;
+}
+
+#robo-man input#robo-content-toggle:checked ~ #robo-content {
+  display: block;
+  opacity: 1;
+}
+
+#robo-man input#robo-content-toggle:checked ~ #robo-message {
+  display: none;
+}
+
+.select-search-drop-down-show {
+  position: absolute;
+  -webkit-transition: opacity 0.2s linear, height 0.3s ease-in-out, -webkit-box-shadow 4s ease-in-out;
+  transition: opacity 0.2s linear, height 0.3s ease-in-out, -webkit-box-shadow 4s ease-in-out;
+  transition: opacity 0.2s linear, height 0.3s ease-in-out, box-shadow 4s ease-in-out;
+  transition: opacity 0.2s linear, height 0.3s ease-in-out, box-shadow 4s ease-in-out, -webkit-box-shadow 4s ease-in-out;
+  overflow-y: scroll;
+  opacity: 1 !important;
+  top: 4rem;
+  /* left: auto !important; */
+  max-height: 16rem;
+  width: 100%;
+  visibility: hidden;
+}
+
+.select-search-drop-down-hide {
+  visibility: visible;
+  position: absolute;
+  opacity: 0;
+  /* left: -9999px; */
+}
+
+.hidden {
+  display: none;
+}
+
+svg.on path {
+  fill: white;
+}
+
+section.content {
+  padding: 0 !important;
+}
+
+button {
+  white-space: normal !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+html,
+body,
+#__next,
+.chakra-ui-light {
+  height: 100%;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+input:-internal-autofill-selected {
+  background-color: transparent !important;
+}
+
+/* 
+.ant-notification-notice,
+.ant-notification-notice-closable,
+.ant-notification {
+	z-index: 999000;
+} */
+.ant-popover-inner {
+  padding: 0 !important;
+}
+
+@-webkit-keyframes changeLetter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes changeLetter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in:before {
+  opacity: 0;
+}
+
+.fade-in:after {
+  opacity: 1;
+}
+
+.fade-in {
+  -webkit-animation: changeLetter 0.3s ease-in;
+          animation: changeLetter 0.3s ease-in;
+  -webkit-transition: content opacity 0.3s ease;
+  transition: content opacity 0.3s ease;
+}
+
+.tall-steps .ant-steps-item-container {
+  height: 6rem !important;
+}
+
+.animate-bottom {
+  display: block;
+  content: '';
+  margin-bottom: -8px;
+}
+
+.animate-bottom::after {
+  content: '';
+  display: block;
+  margin: auto;
+  background: transparent;
+  width: 0;
+  height: 0.5px;
+  background: #0987a0;
+  -webkit-transition: width 0.3s ease, background-color 0.5s ease;
+  transition: width 0.3s ease, background-color 0.5s ease;
+}
+
+.animate-bottom:hover::after {
+  width: 100%;
+}
+
+.animate-bottom:focus::after {
+  width: 100%;
+}
+
+.main-background {
+  background-color: #f4f5f7;
+  height: auto;
+}
+
+.hoverable {
+  padding: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.hoverable:hover {
+  background-color: #f4f5f7;
+}
+
+@media screen and (min-width: 760px) {
+  .hoverable {
+    padding: 0.5rem;
+    padding-left: 0;
+  }
+}
+
+.react-datepicker-wrapper {
+  width: 100% !important;
+}
+
+body > * {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  --webkit-scrollbar: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+/*# sourceMappingURL=index.css.map */

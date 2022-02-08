@@ -1,0 +1,8 @@
+*.d.ts
+node_modules/**/*
+*.yml
+.next
+dist
+coverage
+.github
+.devcontainer/

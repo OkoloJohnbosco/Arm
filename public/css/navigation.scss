@@ -1,0 +1,76 @@
+@import 'variables';
+
+.main-pusher {
+	margin-left: 0;
+}
+
+aside.nav {
+	transform: translateX(-14rem);
+	overflow: auto;
+}
+
+input#nav-toggle:checked ~ :is(.nav) {
+	transform: translateX(0);
+}
+
+.nav,
+.main-pusher {
+	transition: width, transform 250ms ease-in-out;
+}
+.nav::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.nav {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+@media screen and (min-width: $md) {
+	.main-pusher {
+		transition: margin-left 100ms ease-in-out;
+	}
+	.nav {
+		transition: width 100ms ease-in-out;
+	}
+	aside.nav {
+		transform: none;
+	}
+	.main-pusher {
+		margin-left: 14rem;
+	}
+	input#nav-toggle:checked ~ :is(.main-pusher) {
+		margin-left: 5rem;
+	}
+	input#nav-toggle:checked ~ :is(.nav) {
+		width: 5rem;
+	}
+
+	input#nav-toggle:checked ~ aside {
+		.navigation-label {
+			display: none;
+			transition: all 0.2s ease-in-out;
+			opacity: 0;
+			// margin-left: 6rem;
+			// All labels should be hidden
+		}
+		.navigation-user-name {
+			display: none;
+			opacity: 0;
+		}
+		.navigation-section-label {
+			visibility: hidden;
+			white-space: nowrap;
+			opacity: 0;
+		}
+	}
+}
+
+aside .navigation-label {
+	transition: all 0.2s ease-in-out;
+}
+
+.hidden {
+	display: none;
+}

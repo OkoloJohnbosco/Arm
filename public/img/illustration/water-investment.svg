@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 441 359">
+  <defs/>
+  <path fill="#E0E0E0" d="M386 360V254h-88v-93h-12v53h-34v-14h-61v-51h-11V87h-9v61h-22v90h-40v-90H36v90H0v122h386z"/>
+  <path fill="#F0F0F0" d="M143 82H53v278h90V82z"/>
+  <path fill="#E6E6E6" d="M143 100H53v3h90v-3zM143 118H53v3h90v-3zM143 136H53v3h90v-3zM143 155H53v2h90v-2zM143 173H53v2h90v-2zM143 191H53v2h90v-2zM143 209H53v2h90v-2zM143 227H53v2h90v-2zM143 245H53v2h90v-2zM143 263H53v2h90v-2zM143 281H53v2h90v-2zM143 299H53v2h90v-2zM143 317H53v2h90v-2zM143 335H53v2h90v-2zM143 353H53v2h90v-2zM271 238h-90v2h90v-2z"/>
+  <path fill="#F0F0F0" d="M271 166h-90v194h90V166z"/>
+  <path fill="#E6E6E6" d="M271 184h-90v2h90v-2zM271 202h-90v2h90v-2zM271 220h-90v2h90v-2zM271 256h-90v2h90v-2zM271 274h-90v2h90v-2zM271 292h-90v2h90v-2zM271 310h-90v2h90v-2zM271 328h-90v2h90v-2zM271 346h-90v2h90v-2z"/>
+  <path fill="#F0F0F0" d="M401 132h-90v228h90V132z"/>
+  <path fill="#E6E6E6" d="M401 150h-90v2h90v-2zM401 168h-90v2h90v-2zM401 186h-90v2h90v-2zM401 204h-90v2h90v-2zM401 222h-90v2h90v-2zM401 240h-90v2h90v-2zM401 258h-90v2h90v-2zM401 276h-90v2h90v-2zM401 294h-90v2h90v-2zM401 312h-90v2h90v-2zM401 330h-90v3h90v-3zM401 348h-90v3h90v-3z"/>
+  <path fill="#fff" d="M117 63a31 31 0 100-63 31 31 0 000 63z"/>
+  <path fill="#EBECF0" d="M100 31c0-3-2-5-5-5h-2l1-1a12 12 0 00-14-12 10 10 0 00-19 5c-5 0-9 5-9 10s4 9 9 9h34c3 0 5-3 5-6zM424 96c0-3-2-6-5-6l-2 1v-2a12 12 0 00-14-11 10 10 0 00-18 5c-5 0-9 4-9 9s4 9 9 9h34c3 0 5-2 5-5zM304 31c0-3 2-5 5-5h2v-1a12 12 0 0113-12 10 10 0 0119 5c5 0 9 5 9 10s-4 9-9 9h-34c-3 0-5-3-5-6zM169 48c0-2-2-4-4-4l-1 1v-1a7 7 0 00-8-8c-1-1-3-3-5-3-4 0-7 3-7 7-3 0-6 2-6 5s3 6 6 6h21c2 0 4-1 4-3zM271 119c0-2 1-3 3-3h1v-1a7 7 0 018-7c2-2 3-4 6-4s6 3 6 7c3 0 6 2 6 5 0 4-3 6-6 6h-21c-2 0-3-1-3-3z"/>
+  <path fill="#fff" d="M309 65s0-3-5-6l-5 2c-4 1 3 7 7 7s3-3 3-3z"/>
+  <path fill="#EBECF0" d="M308 65s1-5 9-6l12-1s1 8-11 10l11-1s-1 3-6 4l-5-1s-10 3-15-2l-4-1 2-1v-2c3-2 5 2 7 1z"/>
+  <path fill="#fff" d="M246 42s1-2-2-3l-3 1c-2 0 1 4 4 4 2 0 1-2 1-2z"/>
+  <path fill="#EBECF0" d="M246 42s0-3 5-3l6-1s1 5-6 6l6-1s0 2-3 2h-3s-5 1-8-1l-2-1 1-2c2-1 3 2 4 1z"/>
+  <path fill="#fff" d="M204 72l-2-2-2 1c-2 0 1 3 3 3l1-2z"/>
+  <path fill="#EBECF0" d="M203 73l4-3h5s0 3-5 4l5-1-3 2-2-1h-6l-1-1v-1c2-1 2 1 3 1z"/>
+  <path fill="#8FD6E2" fill-rule="evenodd" d="M354 236l3 1 1 1-7 1c0-1 0-3 3-3zM349 231v3l-2 2 2-5z" clip-rule="evenodd"/>
+  <path fill="#8FD6E2" fill-rule="evenodd" d="M349 234l-1-2-2 4 3-2z" clip-rule="evenodd"/>
+  <path fill="#fff" fill-rule="evenodd" d="M359 235l-2 2 4 5 3-4-5-3z" clip-rule="evenodd"/>
+  <mask id="a" width="124" height="4" x="107" y="356" maskUnits="userSpaceOnUse">
+    <path fill="#fff" fill-rule="evenodd" d="M107 357h124v3H107v-3z" clip-rule="evenodd"/>
+  </mask>
+  <g mask="url(#a)">
+    <path fill="#8E8E8F" fill-opacity=".8" fill-rule="evenodd" d="M231 358c0 1-28 2-62 2s-62-1-62-2l62-1 62 1z" clip-rule="evenodd"/>
+  </g>
+  <path fill="#8E8E8F" fill-opacity=".8" fill-rule="evenodd" d="M441 358z" clip-rule="evenodd"/>
+  <path fill="#232323" fill-rule="evenodd" d="M225 358h-39c-1 0-2-1-2-3v-25c0-2 1-3 2-3h39c1 0 3 1 3 3v25c0 2-2 3-3 3z" clip-rule="evenodd"/>
+  <path fill="#E3596B" fill-rule="evenodd" d="M223 330v25c0 2-2 3-3 3h-39c-1 0-2-1-2-3v-25-2l2-1h39l2 1 1 2z" clip-rule="evenodd"/>
+  <path fill="#E3596B" fill-rule="evenodd" d="M223 330v6c0 2-2 4-5 4h-35c-2 0-4-2-4-4v-6-2l2-1h39l2 1 1 2z" clip-rule="evenodd"/>
+  <path fill="#232323" fill-rule="evenodd" d="M210 321l-1 3-2-3 1-3c1 0 2 1 2 3z" clip-rule="evenodd"/>
+  <path fill="#232323" fill-rule="evenodd" d="M213 329c-3-5-5-7-11-7-10 0-11 7-11 7h-3s2-10 14-10c7 0 11 2 13 9l-2 1z" clip-rule="evenodd"/>
+  <path fill="#AECAFC" fill-rule="evenodd" d="M208 324h-12a3 3 0 010-6h12v6zM189 335l-2-2v-6h5v6c0 1-1 2-3 2z" clip-rule="evenodd"/>
+  <path fill="#212121" fill-rule="evenodd" d="M191 333v-1l-4-4v-1l5 5-1 1z" clip-rule="evenodd"/>
+  <path fill="#212121" fill-rule="evenodd" d="M187 333v-1l4-5h1v1l-5 4v1z" clip-rule="evenodd"/>
+  <path fill="#AECAFC" fill-rule="evenodd" d="M213 335c-2 0-3-1-3-2v-6h5v6l-2 2z" clip-rule="evenodd"/>
+  <path fill="#212121" fill-rule="evenodd" d="M215 333v-1l-5-4 1-1 4 5v1z" clip-rule="evenodd"/>
+  <path fill="#212121" fill-rule="evenodd" d="M211 333l-1-1 5-5v1l-4 4v1z" clip-rule="evenodd"/>
+  <path fill="#E3596B" fill-rule="evenodd" d="M195 219c-1 2-3 4-4 3s-2-3-1-5c1-3 3-4 4-4 2 1 2 3 1 6z" clip-rule="evenodd"/>
+  <path fill="#8E8E8F" fill-opacity=".8" fill-rule="evenodd" d="M318 359l-39 1-38-1 38-1 39 1z" clip-rule="evenodd"/>
+  <path fill="#8BEAC5" fill-rule="evenodd" d="M269 267c-35 11-48-8-48-8 13-8 40 1 40 1l8 7z" clip-rule="evenodd"/>
+  <path fill="#269264" fill-rule="evenodd" d="M279 342v16c60-38 37-57 37-57-27 11-37 41-37 41z" clip-rule="evenodd"/>
+  <path fill="#8BEAC5" fill-rule="evenodd" d="M279 355v3c60-38 37-57 37-57l-37 54z" clip-rule="evenodd"/>
+  <path fill="#269264" fill-rule="evenodd" d="M279 342v16c-60-38-37-57-37-57 27 11 37 41 37 41z" clip-rule="evenodd"/>
+  <path fill="#8BEAC5" fill-rule="evenodd" d="M279 355v3c-60-38-37-57-37-57l37 54z" clip-rule="evenodd"/>
+  <path fill="#00797D" fill-rule="evenodd" d="M280 313l-1-1 33-47 1 1-33 47zM279 278l-44-41 1-1 44 41-1 1z" clip-rule="evenodd"/>
+  <path fill="#8BEAC5" fill-rule="evenodd" d="M279 240v16c-32-28-21-49-21-49 15 10 21 33 21 33z" clip-rule="evenodd"/>
+  <path fill="#269264" fill-rule="evenodd" d="M279 253v3c-32-28-21-49-21-49l21 46z" clip-rule="evenodd"/>
+  <path fill="#8BEAC5" fill-rule="evenodd" d="M279 240v16c32-28 22-49 22-49-15 10-22 33-22 33z" clip-rule="evenodd"/>
+  <path fill="#269264" fill-rule="evenodd" d="M279 253v3c32-28 22-49 22-49l-22 46z" clip-rule="evenodd"/>
+  <path fill="#00797D" fill-rule="evenodd" d="M278 358h2V196h-2v162z" clip-rule="evenodd"/>
+  <path fill="#232323" fill-rule="evenodd" d="M285 197a6 6 0 11-11 0 6 6 0 0111 0zM245 239a6 6 0 11-12 0 6 6 0 0112 0zM317 267a6 6 0 11-11 0 6 6 0 0111 0z" clip-rule="evenodd"/>
+  <path stroke="#36B37E" stroke-width=".7" d="M348 246a24 24 0 11-49 0 24 24 0 0149 0"/>
+  <path fill="#E3596B" fill-rule="evenodd" d="M178 177l5 25 20 14 13-6-22-17s1-20-1-26c-1-2-2-4-7-1l-8 11z" clip-rule="evenodd"/>
+  <path stroke="#677AE3" stroke-width=".7" d="M250 220a24 24 0 11-48 0 24 24 0 0148 0"/>
+  <path fill="#36B37E" fill-rule="evenodd" d="M348 247a24 24 0 11-48 0 24 24 0 0148 0z" clip-rule="evenodd"/>
+  <path fill="#278E62" fill-rule="evenodd" d="M324 229a18 18 0 100 36 18 18 0 000-36zm0 37a19 19 0 110-38 19 19 0 010 38z" clip-rule="evenodd"/>
+  <path fill="#269264" fill-rule="evenodd" d="M269 267c-35 11-48-8-48-8l43 4 5 4z" clip-rule="evenodd"/>
+  <path fill="#E3596B" fill-rule="evenodd" d="M136 235s10 5 18 3c7-2 6-9 6-9l-7-3-17 9z" clip-rule="evenodd"/>
+  <path fill="#161414" fill-rule="evenodd" d="M132 351l-15 5-1 2 6 1 22-2v1h7l-1-10-15-1-3 4zM187 351l16 5v2l-6 1-22-2v1h-7l1-10 15-1 3 4z" clip-rule="evenodd"/>
+  <path fill="#E3596B" fill-rule="evenodd" d="M186 208l1 23c0 5-4 9-9 9h-17l13-67c1-4 2-7 5-9 5-4 13 5 14 11l-7 33z" clip-rule="evenodd"/>
+  <path fill="#AECAFC" fill-rule="evenodd" d="M181 226l5 123-18 3-5-114 18-12z" clip-rule="evenodd"/>
+  <path fill="#E3596B" fill-rule="evenodd" d="M185 161h2c3 1 5 4 6 6v9l-2 9-11-12 5-12z" clip-rule="evenodd"/>
+  <path fill="#AECAFC" fill-rule="evenodd" d="M181 226a18 18 0 11-36 0 18 18 0 0136 0z" clip-rule="evenodd"/>
+  <path fill="#FFAB00" fill-rule="evenodd" d="M313 164a34 34 0 11-68 0 34 34 0 0168 0z" clip-rule="evenodd"/>
+  <path fill="#C48504" fill-rule="evenodd" d="M279 138a26 26 0 100 52 26 26 0 000-52zm0 53a27 27 0 110-53 27 27 0 010 53z" clip-rule="evenodd"/>
+  <path fill="#fff" fill-rule="evenodd" d="M267 128l-3-5 1-1 4 6h-2zM260 133l-5-4 1-1 4 4v1zM207 201l-4-4 1-1 4 4-1 1zM214 196l-3-5 1-1 3 6h-1zM223 194v-6h1v6h-1zM234 196h-2l2-6 2 1-2 5zM278 126v-6h2v6h-2zM290 128l-1-1 3-5h1l-3 6zM299 132l-1-1 4-5 1 1-4 5z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M192 136c-2 6-7 9-12 8-7-2-9-10-10-14-1-1 0-3 3-4l5-2c2-1 5-1 7 1s8 7 7 11z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M176 143s2 14-5 16l14 4s-3-8 2-12c0 0-10-6-11-8z" clip-rule="evenodd"/>
+  <path fill="#734E17" fill-rule="evenodd" d="M176 145s0 7 9 10l2-5-11-5z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M193 138l-1 8c0 1-1 8-6 7-2 0-7-2-9-6l-2-4s-1-16 8-18c5-1 10 6 10 13z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M177 140l1 4-4-2c-3-1-2-4-1-5 2 0 3 1 4 3z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M175 131l-3-1c-1-1-1-3 1-4l4-2 10-2c2 0 6 2 5 5l-1 3s-11-4-15 3l-1-2z" clip-rule="evenodd"/>
+  <path fill="#734E17" fill-rule="evenodd" d="M173 141v-2l1-1v1h-1l1 1-1 1zM174 141h1l-1-1 1 1h-1z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M177 131l-1 7-2-1 3-6z" clip-rule="evenodd"/>
+  <path fill="#EFEFEF" fill-rule="evenodd" d="M188 187l-3 12-1 4-5 16-29-5 5-45c1-8 16-12 16-12l12 3c3 1 7 3 8 8l-3 19z" clip-rule="evenodd"/>
+  <path fill="#AECAFC" fill-rule="evenodd" d="M145 225l-13 126h19l12-111-18-15z" clip-rule="evenodd"/>
+  <path fill="#6B778C" fill-rule="evenodd" d="M188 187l-3 12-4-10c-3-9-3-26-3-26h3a938 938 0 007 24z" clip-rule="evenodd"/>
+  <path fill="#677AE3" fill-rule="evenodd" d="M249 221a24 24 0 01-47 5 25 25 0 011-14 24 24 0 0146 9z" clip-rule="evenodd"/>
+  <path fill="#1D6AE5" fill-rule="evenodd" d="M225 201a20 20 0 100 40 20 20 0 000-40zm0 41a20 20 0 110-41 20 20 0 010 41z" clip-rule="evenodd"/>
+  <path fill="#262626" fill-rule="evenodd" d="M204 230l-2-1v-3c1 1 3 3 2 4zM203 218h-2l1-2h2c1-1 1 1-1 2zM210 225l-8-1s7 3 6 4l-6-2a25 25 0 01-1-8l7 3c2 1 3 2 0 2l-5-2c1 1 8 3 7 4z" clip-rule="evenodd"/>
+  <path fill="#fff" fill-rule="evenodd" d="M315 271v-1l8-1v2h-8zm-14 6v-1l7-4v2l-7 3zm-11 10h-1l6-6v1l-5 5zm-9 13l-2-1 5-6h1l-4 7zm-8 13l-1-1 3-6h1l-3 7zm-7 14l-1-1 3-7 1 1-3 7zM310 277l-1-1 7-2 1 1-7 2zm-12 10l-1-1 5-6 1 1-5 6zm-9 12h-1l4-7 1 1-4 6zm-6 14h-1l3-7h1l-3 7zm-4 15h-2l2-8 2 1-2 7zm-3 15h-1l1-7h1l-1 7zM310 286l-1-1 6-6v1l-5 6zm-10 13h-1l5-7 1 1-5 6zm-7 15l-2-1 4-7h1l-3 8zm-6 15h-1l2-8h1l-2 8zm-4 16h-1l2-8h1l-2 8z" clip-rule="evenodd"/>
+  <path fill="#6B778C" fill-rule="evenodd" d="M171 157v1l7 10 1-2-1-7-7-2z" clip-rule="evenodd"/>
+  <path fill="#fff" fill-rule="evenodd" d="M175 154l7 3-4 9-7-9 4-3z" clip-rule="evenodd"/>
+  <path fill="#6B778C" fill-rule="evenodd" d="M187 162l-3 6-2-2 2-3 3-1z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M183 164l5 18c2 9 9 15 9 15v6h-8s-3-4-6-13-3-26-3-26h3z" clip-rule="evenodd"/>
+  <path fill="#fff" fill-rule="evenodd" d="M184 157h-3l3 9 3-4-3-5z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M181 157l-2 7 1 3h3l1-2-2-8h-1z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M193 214c2 0 7 2 10 1 1-1 1 1-1 2h-2l7 3c1 1 2 2 0 2l-6-2 8 4c-1 1-9-1-9-1l7 4c-1 1-7-2-7-2l3 3c-1 1-10-4-11-8-1-2-1-5 1-6z" clip-rule="evenodd"/>
+  <path fill="#fff" fill-rule="evenodd" d="M192 213l3 2-3 6-4-3 4-5z" clip-rule="evenodd"/>
+  <path fill="#E3596B" fill-rule="evenodd" d="M171 157l-1 22-5 38c-2 12-15 19-27 18h-2c3-12 14-32 14-32l4-30c1-5 2-11 10-14l5-1 2-1z" clip-rule="evenodd"/>
+  <path fill="#E3596B" fill-rule="evenodd" d="M159 175l8 32-2 6s-7-8-7-25l1-13z" clip-rule="evenodd"/>
+  <path fill="#E3596B" fill-rule="evenodd" d="M157 184l10 26 24 12s-1-2 1-4l2-5-17-12-6-36s-4 0-9 3-7 10-5 16z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M389 341v-35l-3-30-14 4 9 62 8-1z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M390 346c-1 2-3 4-5 4-2-1-3-3-3-5 1-2 3-4 5-3 2 0 3 2 3 4z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M382 347s-13 8-19 10c-2 1 10 3 16 0l7-7 3-7-7 4z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M390 346l-1 11h-2l-2-9 5-2z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M387 340l-5 1-8 10c-4 3 0 4 4 1l11-9v-2l-2-1z" clip-rule="evenodd"/>
+  <path fill="#734E17" fill-rule="evenodd" d="M374 281l14 23v-6l-12-17h-2z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M412 336c2-2 3-4 5-4l-16-36c-2-4-7-15-16-24l-9 8 35 57 1-1z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M420 336c0 2-1 5-3 5-2 1-4 0-5-2 0-2 1-5 3-5 2-1 4 0 5 2z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M414 341s-9 12-11 17c-1 2 8-2 12-7 2-3 3-17 3-17l-4 7z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M420 337l3 10-2 1-4-7 3-4z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M415 332l-4 4-3 12c-2 5 1 3 3-1l7-13-1-2h-2z" clip-rule="evenodd"/>
+  <path fill="#232323" fill-rule="evenodd" d="M368 191l-8 22-17 17 5 2 17-12c1-1 3-3 3-5l8-19-8-5z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M363 147a11 11 0 1021 7 11 11 0 00-21-7z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M363 163v1a7 7 0 012 2v1c1 4-2 9-2 9l16-1-1-1c-4-4-6-7-6-11a19 19 0 010-2v-1l1-1v-1l-10 5z" clip-rule="evenodd"/>
+  <path fill="#734E17" fill-rule="evenodd" d="M363 165l1 1 1 3c2-1 7-5 7-9h-1v-2l-8 7z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M355 151c0 8 3 15 8 16 5 0 11-6 12-14 0-8-3-14-8-15-6-1-11 5-12 13z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M372 154v4c1 0 3 0 4-2v-4c-1 0-3 0-4 2z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M359 141c0 2 4 3 6 4h2c5 2 8 7 8 7l5-9-11-6-3-2h-4l-2 1a5 5 0 00-1 1v4z" clip-rule="evenodd"/>
+  <path fill="#E3596B" fill-rule="evenodd" d="M387 217l8-3-11-28c-1-4-3-13-7-15s-9-2-14 5c-4 5 1 19 4 31 2 6 1 12 2 17l18-7z" clip-rule="evenodd"/>
+  <path fill="#2D2D2D" fill-rule="evenodd" d="M395 215l-7 2c-6 3-13 4-18 8l3 10-2 46h22s8-32 7-52l-5-14z" clip-rule="evenodd"/>
+  <path fill="#036D6D" fill-rule="evenodd" d="M353 237h-2c-7-4-12-4-15 1-2 4-2 10-1 14l1 2v2l-2-3c-2-4-2-12 1-17 2-3 7-7 17-1h1v2z" clip-rule="evenodd"/>
+  <path fill="#00797D" fill-rule="evenodd" d="M368 255l-16 15a3 3 0 01-3 0h-1l-1-2h-1v-1l-4-4-6-7-2-3 1-1 15-14 1-1 1-1 1-1 4 3 11 12v5z" clip-rule="evenodd"/>
+  <path fill="#E3596B" fill-rule="evenodd" d="M376 230v-12l-1-2-10-25c-2-7-2-18 5-20l4-1c4 0 7 3 9 8a7096 7096 0 0017 51l-24 7v-6z" clip-rule="evenodd"/>
+  <path fill="#161616" fill-rule="evenodd" d="M388 216l-12 14v-12l-1-2 5-6s-10-18-10-26v-5c2-4 8 4 10 8l10 21c1 3 0 6-2 8z" clip-rule="evenodd"/>
+  <path fill="#2D2D2D" fill-rule="evenodd" d="M363 176l-3 6s-4 9 0 14l8 12-2-12-4-13 1-7z" clip-rule="evenodd"/>
+  <path fill="#232323" fill-rule="evenodd" d="M325 269l-1 3-1-3v-3l2 3z" clip-rule="evenodd"/>
+  <path fill="#00797D" fill-rule="evenodd" d="M349 267l-25 5h1l-1-3v-1a5 5 0 00-1-2l20-6 3 3 1 1 1 2h1v1z" clip-rule="evenodd"/>
+  <path fill="#1E1E1E" fill-rule="evenodd" d="M368 250l-11-12-4-3-1 1-1 1-1 1 8 7 4 4c1 2 1 5-1 6l-10 8c-3 2-7 3-11 3l-16 3 1 3h-1l22-5v1h1l1 2a2 2 0 001 0h3l16-15v-5z" clip-rule="evenodd"/>
+  <path fill="#1E1E1E" fill-rule="evenodd" d="M342 259l-2 2-1-2-5-6 2-2 6 8z" clip-rule="evenodd"/>
+  <path fill="#fff" fill-rule="evenodd" d="M345 236l-1 1-1-1 2-1v1zM343 236h-1v-1l1-1v2zM342 234l-2 1v-2h2v1zM347 236l-1 1-1-1 2-1v1z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M340 234c0-2 1-4 3-5 3-2 5 0 6 2l-1 4-2 2a5 5 0 01-1-1 9 9 0 01-2 0l-1-1a6 6 0 01-1 0l-1-1z" clip-rule="evenodd"/>
+  <path fill="#734E17" fill-rule="evenodd" d="M345 236l1-1-1 1zM343 236l1-2v1l-1 1zM341 235l1-1v-1 2h-1z" clip-rule="evenodd"/>
+  <path fill="#B48E56" fill-rule="evenodd" d="M357 237l-7 5c-1 1-2 1 0 1l4-1-6 3c1 1 7-1 7-1l-5 3 6-2-3 3c1 1 8-4 9-7 0-2-5-4-5-4z" clip-rule="evenodd"/>
+  <path fill="#282828" fill-rule="evenodd" d="M368 177c2-4 8-4 9 0l11 28c1 3 1 6-1 8l-25 27-5-3 21-29s-10-19-10-26v-5z" clip-rule="evenodd"/>
+  <path fill="#734E17" fill-rule="evenodd" d="M375 156v-2h-1 1v2zM374 156v-1 1z" clip-rule="evenodd"/>
+  <path fill="#C48504" fill-rule="evenodd" d="M286 153v18h-3l-7-10v10h-4v-18h3l7 10v-10h4z" clip-rule="evenodd"/>
+  <path fill="#C48504" fill-rule="evenodd" d="M268 162h24v-3h-24v3zM268 166h24v-3h-24v3z" clip-rule="evenodd"/>
+  <path fill="#172B4D" fill-rule="evenodd" d="M221 212l11 7-1 2h-8l6 4-2 3-11-7 1-2 9-1-6-3 1-3z" clip-rule="evenodd"/>
+  <path fill="#172B4D" fill-rule="evenodd" d="M229 212l-9 15-2-1 9-15 2 1zM231 213l-8 16-2-2 8-15 2 1z" clip-rule="evenodd"/>
+  <path fill="#278E62" fill-rule="evenodd" d="M331 248l-11 7-1-2 4-8-6 4-2-3 11-6 1 1-3 8 6-3 1 2z" clip-rule="evenodd"/>
+  <path fill="#278E62" fill-rule="evenodd" d="M328 255l-9-15 2-1 9 15-2 1zM325 257l-9-16 2-1 9 15-2 2z" clip-rule="evenodd"/>
+</svg>

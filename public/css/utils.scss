@@ -1,0 +1,40 @@
+$sizeList: 1, 2, 3, 4, 5, 7, 8, 9;
+$padding: "pt", 'pb','pl','pr';
+
+@mixin padding($paddingSize) {
+	padding: $paddingSize;
+}
+
+@mixin paddingLeft($paddingSize) {
+	padding-left: $paddingSize;
+}
+
+@mixin paddingRight($paddingSize) {
+	padding-right: $paddingSize;
+}
+
+@mixin paddingTop($paddingSize) {
+	padding-right: $paddingSize;
+}
+
+@mixin paddingBottom($paddingSize) {
+	padding-right: $paddingSize;
+}
+
+@each $size in $sizeList {
+	.p-#{$size} {
+		@include padding(#{$size}rem);
+	}
+	.pr-#{$size} {
+		@include paddingRight(#{$size}rem);
+	}
+	.pl-#{$size} {
+		@include paddingLeft(#{$size}rem);
+	}
+	.pb-#{$size} {
+		@include paddingBottom(#{$size}rem);
+	}
+	.pt-#{$size} {
+		@include paddingTop(#{$size}rem);
+	}
+}

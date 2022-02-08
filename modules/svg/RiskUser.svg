@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 173 170">
+  <defs/>
+  <path fill="#EA9D2D" d="M169 88l-50-12c-37-8-76-7-113 3H4a3 3 0 11-1-6h2c37-10 77-11 115-2l50 11a3 3 0 01-1 6z"/>
+  <path fill="#0A9ACD" d="M76 44L62 59H50v11h15l8-5 3-21z"/>
+  <path fill="#FDC9A6" d="M79 12l-3 9 3 3v6h6v6l9-3V18l-6-6h-9z"/>
+  <path fill="#533222" d="M79 12a11 11 0 01-6-9V1l21 2a6 6 0 014 9l-4 6-6-6h-9z"/>
+  <path fill="#FDC9A6" d="M103 132v11H82v-9l6-2h15zM73 132v11H53v-9l6-2h14z"/>
+  <path fill="#B0D2FD" d="M4 140h17v29H4v-29zM155 140h17v29h-17v-29z"/>
+  <path fill="#0A6FA2" d="M100 73v8c0 5-1 9-3 13l-6 11 12 27H88l-10-24a14 14 0 01-1-11l5-12-17 20 8 27H59l-8-25-1-3c0-3 1-6 3-8l20-23h27z"/>
+  <path fill="#0BAFEA" d="M73 73V52a16 16 0 017-12l5-4 9-3 14 3 18 11v18h-12V53l-14-6-3 15 3 11H73z"/>
+  <path fill="#FDC9A6" d="M50 59H39l-6 6 6 8 5-3h6V59zM114 65l-3 8 6 3v3h9l3-6-3-8h-12z"/>
+  <path fill="#CBCBCB" d="M143 146H36a3 3 0 110-6h107a3 3 0 110 6z"/>
+  <path fill="#A8A8A8" d="M149 152a9 9 0 110-18 9 9 0 010 18zm0-12a3 3 0 00-1 6 3 3 0 003-5l-2-1zM27 152a9 9 0 110-18 9 9 0 010 18zm0-12a3 3 0 100 6 3 3 0 000-6z"/>
+</svg>

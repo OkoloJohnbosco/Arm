@@ -1,0 +1,7 @@
+export { default as BullIcon } from './Bull.svg'
+export { default as DiscoveryFundImage } from './DiscoveryFund.svg'
+export { default as EquityImage } from './Equity.svg'
+export { default as TreasureKeyImage } from './TreasureKey.svg'
+export { default as NavigationIcon } from './Navigation.svg'
+export { default as HouseIcon } from './House.svg'
+export { default as OldFolksSelfie } from './OldFolksSelfie.svg'
