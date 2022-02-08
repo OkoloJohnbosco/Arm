@@ -15,7 +15,7 @@
 		"build:dev": "next build",
 		"build-old": "yarn type-check && yarn run dependency-check && next build",
 		"build": "yarn type-check && next build",
-		"export": "next build && next export",
+		"export": "npm run build && next export -o _static",
 		"heroku-postbuild": "yarn run build",
 		"start:heroku": "next start -p $PORT",
 		"start": "next start -p $PORT",
