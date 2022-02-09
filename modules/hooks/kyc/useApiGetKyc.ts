@@ -13,7 +13,7 @@ type KycProps = {
 	enabled?: boolean
 }
 
-export default ({ enabled = true, amount }: KycProps) => {
+export default ({ enabled = true, amount = 10000 }: KycProps) => {
 	return useQueryAction<KYCTierType>({
 		endpoint: `${ENDPOINTS.API_GET_KYC}${amount ? `?${querystring.stringify({ amount })}` : ''}`,
 		enabled,
